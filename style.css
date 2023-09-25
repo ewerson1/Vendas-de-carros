@@ -1,0 +1,133 @@
+
+body{
+    background-color: #F0EBF8;
+    margin: 0;
+}
+
+.header{
+    background: rgb(210,39,183);
+    background: linear-gradient(62deg, rgba(210,39,183,1) 0%, rgba(29,203,253,1) 50%, rgba(231,69,252,1) 100%);
+    color: white;
+    display: block;
+    padding: 20px;
+    height: 160px;
+}
+
+
+
+
+label,
+input{  
+    display: block;
+}
+input{
+    border: 0px;
+    border: none;
+    margin: 0;
+    padding: 10px 0;
+    width: 578px;
+    font-size: 17px;
+    
+    
+}
+label{
+    font-size: 20px;
+    color: #444;
+    
+}
+
+div{
+    font-family: arial;
+}
+.container{
+    padding: 30px;
+    background-color: #fdfdfd;
+    width: 578px;
+    margin: 10px auto;
+    position: relative;
+    top: -62px;
+}
+.formulario{
+    text-align: center;
+    color: #673AB7;
+    border-bottom: 2px solid #673ab7;
+    width: 140px;
+    margin: 0 auto;
+    text-transform: uppercase;
+    height: 45px;
+
+}
+
+.borda-form{
+    border-bottom: 1px solid #dfdfdf;
+    height: 45px;
+    
+}
+
+.venda{
+    font-size: 19px;
+}
+
+p{
+    font-size: 20px;
+    color: #444;
+}
+
+.borda{
+    border-bottom: 1px solid #ccc;
+}
+
+.required::after{
+    content: " *";
+    color: red;
+}
+
+.space-form{
+    margin: 30px 0;
+    list-style: none;
+}
+
+textarea{
+    width: 575px;
+    height: 50px;
+    font-family: arial;
+    font-size: 17px;
+    padding: 10px 5px;
+    border: 1px solid black;
+    
+}
+
+.date{
+    font-size: 17px;
+    font-family: Arial, Helvetica, sans-serif;
+    border-bottom: 1px solid #ccc;
+}
+
+.cambio,
+.cambio2{
+    font-size: 20px;
+    width: 20px;
+    display: inline;
+    
+}
+
+
+.send{
+    background-color: #673AB7;
+    margin: 40px 0;
+    color: white;
+    width: 200px;
+    height: 60px;
+    font-size: 25px;
+    font-family: arial;
+    cursor: pointer;
+    transition: 1s;
+
+    
+}
+
+.send:hover{
+    background-color: #ffffff;
+    border: #673AB7;
+    color: #673AB7;
+}
